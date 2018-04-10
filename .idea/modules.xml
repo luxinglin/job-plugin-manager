@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/job-core/job-core.iml" filepath="$PROJECT_DIR$/job-core/job-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/job-main.iml" filepath="$PROJECT_DIR$/job-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/plugins.iml" filepath="$PROJECT_DIR$/plugins/plugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/db-mongodb/plugins-db-mongodb.iml" filepath="$PROJECT_DIR$/plugins/db-mongodb/plugins-db-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/db-mysql/plugins-db-mysql.iml" filepath="$PROJECT_DIR$/plugins/db-mysql/plugins-db-mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/server-vcenter/server-vcenter.iml" filepath="$PROJECT_DIR$/plugins/server-vcenter/server-vcenter.iml" />
+    </modules>
+  </component>
+</project>

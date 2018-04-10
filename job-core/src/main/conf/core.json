@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    {
+      "pluginName": "mysqlJobManager",
+      "pluginClass": "com.lxl.plugins.jobmanager.db.MysqlJobManager"
+    },
+    {
+      "pluginName": "mongoDBJobManager",
+      "pluginClass": "com.lxl.plugins.jobmanager.db.MongoDBJobManager"
+    },
+    {
+      "pluginName": "vcenterJobManager",
+      "pluginClass": "com.lxl.plugins.jobmanager.server.VCenterJobManager"
+    }
+  ]
+}

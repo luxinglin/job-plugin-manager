@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="core" />
+        <module name="db-mongodb" />
+        <module name="db-mysql" />
+        <module name="job-core" />
+        <module name="jobmanager-core" />
+        <module name="jobmanager-mongodb" />
+        <module name="jobmanager-mysql" />
+        <module name="plugins-db-mongodb" />
+        <module name="plugins-db-mysql" />
+        <module name="server-vcenter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="core" target="1.5" />
+      <module name="db-jobmanager" target="1.5" />
+      <module name="db-mongodb" target="1.5" />
+      <module name="db-mysql" target="1.5" />
+      <module name="job-core" target="1.5" />
+      <module name="job-main" target="1.5" />
+      <module name="job-manager" target="1.5" />
+      <module name="jobmanager-core" target="1.5" />
+      <module name="jobmanager-mongodb" target="1.5" />
+      <module name="jobmanager-mysql" target="1.5" />
+      <module name="plugins" target="1.5" />
+      <module name="plugins-db" target="1.5" />
+      <module name="plugins-db-mongodb" target="1.5" />
+      <module name="plugins-db-mysql" target="1.5" />
+      <module name="plugins-server" target="1.5" />
+      <module name="server-vcenter" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
