@@ -18,22 +18,12 @@
         <module name="server-vcenter" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="core" target="1.5" />
-      <module name="db-jobmanager" target="1.5" />
-      <module name="db-mongodb" target="1.5" />
-      <module name="db-mysql" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
       <module name="job-core" target="1.5" />
       <module name="job-main" target="1.5" />
-      <module name="job-manager" target="1.5" />
-      <module name="jobmanager-core" target="1.5" />
-      <module name="jobmanager-mongodb" target="1.5" />
-      <module name="jobmanager-mysql" target="1.5" />
       <module name="plugins" target="1.5" />
-      <module name="plugins-db" target="1.5" />
       <module name="plugins-db-mongodb" target="1.5" />
       <module name="plugins-db-mysql" target="1.5" />
-      <module name="plugins-server" target="1.5" />
       <module name="server-vcenter" target="1.5" />
     </bytecodeTargetLevel>
   </component>
